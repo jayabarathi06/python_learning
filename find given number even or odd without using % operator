@@ -1,0 +1,5 @@
+n=int(input())
+if ((n//2)*2==n):
+    print("even")
+else:
+    print("odd") #then another condition for if (n&1==0): print("even")
