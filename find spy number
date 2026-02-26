@@ -1,0 +1,12 @@
+num=int(input())
+sum=0
+pro=1
+while(num>0):
+    d=num%10
+    sum+=d
+    pro*=d
+    num//=10
+if(pro==sum):
+    print("spy number")
+else:
+    print("not spy number")
